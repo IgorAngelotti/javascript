@@ -36,9 +36,12 @@
         <p>Já me livrei da maldição</p>
     </main>
     <script>
-       window.alert('Minha primeira mensagem!')
-       window.confirm('Está gostando do Javascript?')
-       window.prompt('Qual é o seu nome?')
+       var n1 = Number(window.prompt('Digite um número')) // o prompt retorna uma *String*, mesmo que seja digitado um número
+       var n2 = Number(window.prompt('Digite outro número')) // nesses casos, é preciso converter a var para um número inteiro ou real usando Number
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é de ${s}`)// concatenação
+       //(number + number) para adição
+       //(string + string) para concatenção 
     </script>
 </body>
 </html>
