@@ -32,6 +32,16 @@
         var d = window.document.querySelector('div#msg')  // QUERYSLECTOR É A FORMA MAIS RECENTE
         d.style.background = 'black'
 
+        d.addEventListener('click', clicar)
+        d.addEventListener('mouseout', sair)
+        function clicar(){
+            d.style.background = 'green'
+        }
+
+        function sair(){
+            d.style.background = 'black'
+        }
+
 </script>
 </body>
 </html>
