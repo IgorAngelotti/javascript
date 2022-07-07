@@ -1,14 +1,17 @@
 function calcular(){
-    var num = Number(document.getElementById('numero').value)
+    var num = document.getElementById('numero')
     var cont = 0
     var res = document.getElementById('res')
-    res.innerHTML = ''
-    res.innerHTML = `Tabuada do ${num}:` 
+    res.innerHTML = '' 
+    if (num.value.length == 0){
+        res.innerHTML = 'É preciso informar um número!!'
+    } else {
+    var tabuada = Number(num.value)
+    res.innerHTML = `Tabuada do ${tabuada}:`
     while (cont <=10){
-        var mult = num * cont 
-        res.innerHTML += `<br>${num} X ${cont} = ${mult} `
+        var mult = tabuada * cont 
+        res.innerHTML += `<br>${tabuada} X ${cont} = ${mult} `
         cont ++
     }
-
-
+    }
 }
