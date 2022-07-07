@@ -1,9 +1,5 @@
 @charset "utf-8";
-*{
-     padding: 0px;
-     margin: 0px;
 
-}
 
 body{
     background-color: #3E81D5;
@@ -28,13 +24,6 @@ section{
     box-shadow: 2px 2px 3px rgba(46, 46, 46, 0.397);
 }
 
-#numero{
-    width: 200px;
-}
-
-/* #numero:active{
-    border: 1px 1px white
-} */
 
 footer{
     text-align: center;
