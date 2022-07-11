@@ -1,8 +1,7 @@
 @charset "utf-8";
 *{
-     padding: 0px;
-     margin: 0px;
-
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -22,11 +21,12 @@ header{
 section{
     margin: auto;
     background-color: white;
-    width: 500px;
+    max-width: 500px;
+    width: 92%;
     border-radius: 10px;
     padding: 15px;
     box-shadow: 2px 2px 3px rgba(46, 46, 46, 0.397);
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 input{
@@ -35,7 +35,12 @@ input{
 
 select{
     width: 150px;
+    padding: 3px
 }
+
+div#res p{
+    padding-top: 10px;
+} 
 
 footer{
     text-align: center;
