@@ -41,7 +41,7 @@ function adicionar(){
 function finalizar (){
     var soma = 0
     var ultimo = valores.length
-    valores.sort()
+    valores.sort(( a, b ) => a - b)
     var mnum = valores[0]
     var Mnum = valores[ultimo-1]
     for (cont = 0; cont < valores.length; cont++){
