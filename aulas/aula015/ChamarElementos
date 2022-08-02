@@ -6,7 +6,7 @@ console.log(`O valor 9 está na posição ${pos}`)
 //Para algum valor que nao exista, o irá mostrar o -1:
 var pos = num.indexOf(6)
 if (pos == -1){
-  console.log(`O valor não exsite e será representado por ${pos} pelo javascript`)  
+  console.log(`O valor não existe e será representado por ${pos} pelo javascript`)  
 } else{
     console.log(`O valor estpa na posição ${pos}`)
 }
