@@ -18,7 +18,7 @@ header{
 section{
     margin: auto;
     background-color: white;
-    width: 500px;
+    max-width: 500px;
     height: 250px;
     border-radius: 10px;
     padding: 15px;
@@ -41,4 +41,18 @@ footer{
     font-weight: bolder;
     padding: 20px;
     color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    font-size: 1.2em;
+    transition: 0.075s;
+    background-color: rgba(255, 255, 255, 0.247);
+    padding: 5px;
+    border-radius: 10px;
+    
 }
